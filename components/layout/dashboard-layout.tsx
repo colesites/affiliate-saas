@@ -210,7 +210,7 @@ export function DashboardLayout({
       </aside>
 
       {/* Main content */}
-      <div className="flex flex-col flex-grow lg:ml-64">
+      <div className="flex flex-col flex-grow lg:ml-64 w-screen">
         {/* Header (also fixed) */}
         <header className="bg-card border-b px-4 py-3 flex items-center justify-between sticky top-0 z-30">
           <div className="flex items-center space-x-4">
