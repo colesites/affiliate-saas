@@ -12,7 +12,7 @@ export function CustomerDashboard() {
     <DashboardLayout userRole="customer" userName="Sarah Wilson">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">My Dashboard</h1>
             <p className="text-muted-foreground">Access your purchased products and track progress</p>

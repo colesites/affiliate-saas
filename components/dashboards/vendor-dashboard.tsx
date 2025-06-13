@@ -13,7 +13,7 @@ export function VendorDashboard() {
     <DashboardLayout userRole="vendor" userName="John Vendor">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">Vendor Dashboard</h1>
             <p className="text-muted-foreground">Manage your products and track sales</p>
