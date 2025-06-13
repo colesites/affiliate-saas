@@ -12,7 +12,7 @@ export function CustomerDashboard() {
     <DashboardLayout userRole="customer" userName="Sarah Wilson">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col gap-y-4 md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">My Dashboard</h1>
             <p className="text-muted-foreground">Access your purchased products and track progress</p>
@@ -61,11 +61,11 @@ export function CustomerDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="library" className="space-y-4">
-          <TabsList>
-            <TabsTrigger value="library">My Library</TabsTrigger>
-            <TabsTrigger value="progress">Progress</TabsTrigger>
-            <TabsTrigger value="subscriptions">Subscriptions</TabsTrigger>
-            <TabsTrigger value="receipts">Receipts</TabsTrigger>
+          <TabsList className="max-w-[300px] mx-auto">
+            <TabsTrigger className="max-sm:text-[10px]" value="library">My Library</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="progress">Progress</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="subscriptions">Subscriptions</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="receipts">Receipts</TabsTrigger>
           </TabsList>
 
           <TabsContent value="library" className="space-y-4">

@@ -77,12 +77,12 @@ export function AdminDashboard() {
 
         {/* Main Content Tabs */}
         <Tabs defaultValue="overview" className="space-y-4 ">
-          <TabsList className="max-w-[300px] mx-auto text-[10px]">
-            <TabsTrigger value="overview">Overview</TabsTrigger>
-            <TabsTrigger value="users">Users</TabsTrigger>
-            <TabsTrigger value="products">Products</TabsTrigger>
-            <TabsTrigger value="analytics">Analytics</TabsTrigger>
-            <TabsTrigger value="payouts">Payouts</TabsTrigger>
+          <TabsList className="max-w-[300px] mx-auto">
+            <TabsTrigger className="max-sm:text-[10px]" value="overview">Overview</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="users">Users</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="products">Products</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="analytics">Analytics</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="payouts">Payouts</TabsTrigger>
           </TabsList>
 
           <TabsContent value="overview" className="space-y-4">

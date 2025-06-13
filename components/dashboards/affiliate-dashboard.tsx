@@ -14,7 +14,7 @@ export function AffiliateDashboard() {
     <DashboardLayout userRole="affiliate" userName="Alex Rodriguez">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col gap-y-4 md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">Affiliate Dashboard</h1>
             <p className="text-muted-foreground">Track your performance and earnings</p>
@@ -38,11 +38,11 @@ export function AffiliateDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="links" className="space-y-4">
-          <TabsList>
-            <TabsTrigger value="links">Affiliate Links</TabsTrigger>
-            <TabsTrigger value="performance">Performance</TabsTrigger>
-            <TabsTrigger value="bonuses">Bonuses</TabsTrigger>
-            <TabsTrigger value="withdrawals">Withdrawals</TabsTrigger>
+          <TabsList className="max-w-[300px] mx-auto">
+            <TabsTrigger className="max-sm:text-[10px]" value="links">Affiliate Links</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="performance">Performance</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="bonuses">Bonuses</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="withdrawals">Withdrawals</TabsTrigger>
           </TabsList>
 
           <TabsContent value="links" className="space-y-4">

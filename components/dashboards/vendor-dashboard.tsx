@@ -13,7 +13,7 @@ export function VendorDashboard() {
     <DashboardLayout userRole="vendor" userName="John Vendor">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col gap-y-4 md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">Vendor Dashboard</h1>
             <p className="text-muted-foreground">Manage your products and track sales</p>
@@ -34,11 +34,11 @@ export function VendorDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="products" className="space-y-4">
-          <TabsList>
-            <TabsTrigger value="products">My Products</TabsTrigger>
-            <TabsTrigger value="affiliates">Affiliates</TabsTrigger>
-            <TabsTrigger value="analytics">Analytics</TabsTrigger>
-            <TabsTrigger value="earnings">Earnings</TabsTrigger>
+          <TabsList className="max-w-[300px] mx-auto">
+            <TabsTrigger className="max-sm:text-[10px]" value="products">My Products</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="affiliates">Affiliates</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="analytics">Analytics</TabsTrigger>
+            <TabsTrigger className="max-sm:text-[10px]" value="earnings">Earnings</TabsTrigger>
           </TabsList>
 
           <TabsContent value="products" className="space-y-4">
