@@ -30,7 +30,7 @@ export function AdminDashboard() {
     <DashboardLayout userRole="admin" userName="Admin User">
       <div className="space-y-6">
         {/* Header */}
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col gap-y-4 md:flex-row items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold">Admin Dashboard</h1>
             <p className="text-muted-foreground">
@@ -77,7 +77,7 @@ export function AdminDashboard() {
 
         {/* Main Content Tabs */}
         <Tabs defaultValue="overview" className="space-y-4 ">
-          <TabsList className="max-w-[300px] mx-auto">
+          <TabsList className="max-w-[300px] mx-auto text-[10px]">
             <TabsTrigger value="overview">Overview</TabsTrigger>
             <TabsTrigger value="users">Users</TabsTrigger>
             <TabsTrigger value="products">Products</TabsTrigger>
