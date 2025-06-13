@@ -61,7 +61,7 @@ export function CustomerDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="library" className="space-y-4">
-          <TabsList className="max-w-[300px] mx-auto">
+          <TabsList className="max-sm:max-w-[300px] max-sm:mx-auto">
             <TabsTrigger className="max-sm:text-[10px]" value="library">My Library</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="progress">Progress</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="subscriptions">Subscriptions</TabsTrigger>

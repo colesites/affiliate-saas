@@ -34,7 +34,7 @@ export function VendorDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="products" className="space-y-4">
-          <TabsList className="max-w-[300px] mx-auto">
+          <TabsList className="max-sm:max-w-[300px] max-sm:mx-auto">
             <TabsTrigger className="max-sm:text-[10px]" value="products">My Products</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="affiliates">Affiliates</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="analytics">Analytics</TabsTrigger>

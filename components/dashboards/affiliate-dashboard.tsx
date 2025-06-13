@@ -38,7 +38,7 @@ export function AffiliateDashboard() {
 
         {/* Main Content */}
         <Tabs defaultValue="links" className="space-y-4">
-          <TabsList className="max-w-[300px] mx-auto">
+          <TabsList className="max-sm:max-w-[300px] max-sm:mx-auto">
             <TabsTrigger className="max-sm:text-[10px]" value="links">Affiliate Links</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="performance">Performance</TabsTrigger>
             <TabsTrigger className="max-sm:text-[10px]" value="bonuses">Bonuses</TabsTrigger>
