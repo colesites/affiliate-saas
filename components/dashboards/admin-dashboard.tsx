@@ -28,7 +28,7 @@ import { TopProducts } from "../ui/top-products";
 export function AdminDashboard() {
   return (
     <DashboardLayout userRole="admin" userName="Admin User">
-      <div className="space-y-6 relative overflow-x-hidden">
+      <div className="space-y-6">
         {/* Header */}
         <div className="flex items-center justify-between">
           <div>
