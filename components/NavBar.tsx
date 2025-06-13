@@ -13,7 +13,7 @@ const NavBar = () => {
             </div>
             <span className="text-xl font-bold">AffiliateHub</span>
           </div>
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="flex items-center space-x-6">
             <Button asChild>
               <Link href="/dashboard/admin">Get Started</Link>
             </Button>

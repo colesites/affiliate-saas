@@ -280,7 +280,7 @@ export function DashboardLayout({
         </header>
 
         {/* Scrollable Page content */}
-        <main className="flex-grow p-6 overflow-y-auto">{children}</main>
+        <main className="flex-grow p-6 overflow-y-auto overflow-x-hidden relative">{children}</main>
       </div>
     </div>
   );
